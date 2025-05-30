@@ -237,18 +237,6 @@ For production deployment:
 1. Set `DEBUG=False` in your environment
 2. Configure proper CORS origins in `app/main.py`
 3. Use a production WSGI server like Gunicorn
-4. Consider using PostgreSQL instead of SQLite
+4. Consider using PostgreSQL/Django/MySQL instead of SQLite
 5. Set up proper logging and monitoring
 
-## License
-
-This project is licensed under the MIT License.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass
-6. Submit a pull request
