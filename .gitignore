@@ -2,3 +2,6 @@ venv/
 .env
 birdnest.db
 test_birdnest.db
+templates/
+test.py
+fast.py

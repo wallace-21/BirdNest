@@ -3,7 +3,9 @@ from .base import BaseModel
 
 
 class Bird(BaseModel):
-    """Bird model based on the JSON structure."""
+    """
+        Bird model based on the JSON structure.
+    """
     __tablename__ = "birds"
 
     # Basic info
